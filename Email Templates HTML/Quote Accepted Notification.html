@@ -1,0 +1,12 @@
+Title:
+הצעה #{$quote_number} אושרה - {$quote_subject}
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>ההצעה אושרה על-ידי הלקוח, להלן הפרטים.</p>
+<p><strong>פרטי הלקוח</strong></p>
+<p>מזהה לקוח: {$client_id}<br /> שם: {$clientname}<br /> מייל: {$client_email}<br /> חברה: {$client_company_name}<br /> כתובת שורה 1: {$client_address1}<br /> כתובת שורה 2: {$client_address2}<br /> עיר: {$client_city}<br /> מחוז: {$client_state}<br /> מיקוד: {$client_postcode}<br /> ארץ \ מדינה: {$client_country}<br /> טלפון: {$client_phonenumber}</p>
+<p><strong>פרטי ההצעה</strong></p>
+<p>הצעה מס' #: {$quote_number}<br /> כותרת ההצעה: {$quote_subject}</p>
+<p><a href="{$whmcs_admin_url}quotes.php?action=manage&amp;id={$quote_number}">{$whmcs_admin_url}quotes.php?action=manage&amp;id={$quote_number}</a></p>
+</div>

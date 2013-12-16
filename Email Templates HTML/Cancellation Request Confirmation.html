@@ -1,0 +1,12 @@
+Title:
+בקשה לביטול שירות
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>מייל זה מאשר שקיבלנו את בקשתך לביטול השירותים המפורטים בהמשך המייל.</p>
+<p>מוצר\שירות: {$service_product_name}<br />דומיין: {$service_domain}</p>
+<p>{if $service_cancellation_type=="Immediate"}השירות יבוטל בימים הקרובים.{else}השירות יבוטל בסיום תוקף החבילה הנוכחית, בתאריך {$service_next_due_date}.{/if}</p>
+<p>תודה שבחרת ב {$company_name} נשמח לעמוד לרשותך בכל נושא בעתיד.</p>
+<p>{$signature}</p>
+</div>

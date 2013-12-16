@@ -1,0 +1,32 @@
+Title:
+פרטי חשבון חדש
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p align="center"><strong><big> הדפס הודעה זאת ושמור אותה- קרא הודעה זאת בעיון רב.</big></strong></p>
+<p>תודה לך על ביצוע ההזמנה!</p>
+<p>חשבון האחסון שלך הופעל, ובהמשך נפרט את כל המידע הדרוש לך בכדי להתחיל להשתמש בחשבון שלך.</p>
+<p>אם ביקשת שם דומיין במהלך הרישום, שים לב כי הדומיין שלך לא יופי ברשת באופן מיידי. תהליך זה נקרה עדכון דומיין ויכול לקחת עד 48 שעות.</p>
+<p>עד לסוף תהליך העדכון, האתר שלך והדוא"ל לא יתפקדו.</p>
+<p>אנחנו מספקים כתובת URL זמנית, אליה באופן זמני אתה יכול להעלות מידע נוסף.</p>
+<p><strong>מידע אודות החשבון החדש</strong></p>
+<p>חבילת אחסון: {$service_product_name}<br />דומיין: {$service_domain}<br />תשלום ראשוני: {$service_first_payment_amount}<br />תשלום תקופתי: {$service_recurring_amount}<br />מחזור חיוב: {$service_billing_cycle}<br />תאריך הבא לתשלום: {$service_next_due_date}</p>
+<p><strong>פרטי התחברות<br /></strong></p>
+<p>שם משתמש: {$service_username}<br />סיסמה: {$service_password}</p>
+<p>לוח בקרה URL: <a href="http://{$service_server_ip}:2082/">http://{$service_server_ip}:2082/</a><br />לאחר שהדומיין יסיים את תהליך העדכון תוכל להשתמש גם ב: <a href="http://www.{$service_domain}:2082/">http://www.{$service_domain}:2082/</a></p>
+<p><strong>נתוני שרת</strong></p>
+<p>שם שרת: {$service_server_name}<br />IP של שרת: {$service_server_ip}</p>
+<p>אם אתה משתמש בדומיין קיים עם חשבון האחסון החדש שלך, יהיה עליך לבצע עדכון של שמות השרת כדי שיפנו לשמות השרת הבאים:</p>
+<p>Nameserver 1: {$service_ns1} ({$service_ns1_ip})<br />Nameserver 2: {$service_ns2} ({$service_ns2_ip}){if $service_ns3}<br />Nameserver 3: {$service_ns3} ({$service_ns3_ip}){/if}{if $service_ns4}<br />Nameserver 4: {$service_ns4} ({$service_ns4_ip}){/if}</p>
+<p><strong>העלאת אתר האינטרנט שלך</strong></p>
+<p>אתה יכול להשתמש בכתובת הרשומה מטה באופן זמני לניהול האתר שלך:</p>
+<p>מארח FTP זמני: {$service_server_ip}<br />URL זמני: <a href="http://{$service_server_ip}/~{$service_username}/">http://{$service_server_ip}/~{$service_username}/</a></p>
+<p>לאחר עדכון הדומיין שלך, אתה יכול להשתמש בפרטים הבאים:</p>
+<p>FTP Hostname: {$service_domain}<br />Webpage URL: <a href="http://www.{$service_domain}">http://www.{$service_domain}</a></p>
+<p><strong>הגדרות דוא"ל</strong></p>
+<p>בהגדרת חשבונות דוא"ל , עליך להשתמש בפירוט המצורף בתונת הדוא"ל הרלוונטית.</p>
+<p>POP3 Host Address: mail.{$service_domain}<br />SMTP Host Address: mail.{$service_domain}<br />שם משתמש: כתובת הדוא"ל עבורה אתה בודק את הדוא"ל.<br />סיסמה: כפי שמצויין בכלי הניהול.</p>
+<p>אנחנו מודים לך על שבחרת בנו.</p>
+<p>{$signature}</p>
+</div>
