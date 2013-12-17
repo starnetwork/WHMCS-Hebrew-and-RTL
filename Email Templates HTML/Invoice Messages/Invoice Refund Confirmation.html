@@ -1,0 +1,15 @@
+Title:
+אישור החזר ללקוח
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>זוהי הודעת אישור כי החזר {if $invoice_status eq "Refunded"}מלא{else}חלקי{/if} התקבל עבור חיוב #{$invoice_num}</p>
+<p>ההחזר בוצע {if $invoice_refund_type eq "credit"}לחשבון שלך {else}הוחזר באמצעות שיטת השתלום בה בוצע התשלום{/if}.</p>
+<p>{$invoice_html_contents}</p>
+<p>סכום ההחזר: {$invoice_last_payment_amount}{if $invoice_last_payment_transid}<br />העברה #: {$invoice_last_payment_transid}{/if}<br />מאזן: {$invoice_balance}</p>
+<p>אתה יכול לסקור את היסטורית החיובים שלך באזור הלקוחות.</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

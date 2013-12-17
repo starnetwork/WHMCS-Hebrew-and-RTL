@@ -1,0 +1,9 @@
+Title:
+התקנה אוטומטית של WHMCS נכשלה
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>הזמנה קיבלה תשלום ראשון, אך מערכת התשלום האוטומטית נכשלה ועליך לבצע בדיקה ופתרון באופן ידני.</p>
+<p>מזהה לקוח: {$client_id}<br />{if $service_id}מזהה הזמנה: {$service_id}<br />מוצר/שירות: {$service_product}<br />דומיין: {$service_domain}{else}מזהה דומיין: {$domain_id}<br />סוג דומיין/הרשאה: {$domain_type}<br />דומיין: {$domain_name}{/if}<br />טעות: {$error_msg}</p>
+<p>{$whmcs_admin_link}</p>
+</div>

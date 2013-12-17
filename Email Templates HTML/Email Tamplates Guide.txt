@@ -1,0 +1,9 @@
+1. Update the hashkeyforautologin to your personal key, more info: http://docs.whmcs.com/AutoAuth
+2. Check the Knowledgebase articles links for the tickets, for example:
+	a. what is support ticket
+	b. what is meaning "my ticket as been closed"
+	c. how can I login to whmcs
+	d. how can I pay
+	etc...
+3. update the dates / Additional Information for Scheduled maintenance and others "general" templates per event
+4. add / edit personal information to the tickets templates, For example phones, company extended details or any other relevenat information.

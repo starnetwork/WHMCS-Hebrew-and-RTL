@@ -1,0 +1,17 @@
+Title:
+חיוב לקוח
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>הודעה זאת נשלחה בכדי להודיע לך כי חיוב נוצר ב: {$invoice_date_created}.</p>
+<p>שיטת התשלום שלך היא: {$invoice_payment_method}</p>
+<p>חיוב #{$invoice_num}<br /> סה"כ: {$invoice_total}<br /> תוקף העסקה: {$invoice_date_due}</p>
+<p><strong>פרטי חיוב</strong></p>
+<p>{$invoice_html_contents} <br /> ------------------------------------------------------</p>
+<p>החיוב יבוצע באופן אוטומטי ב {$invoice_date_due} בעזרת פרטי כרטיס האשראי הקיימים אצלנו.</p>
+<p>כדי לעדכן פרטי כרטיס אשראי, התחבר ל: {$invoice_link} ובחר Pay Now ועקוב אחר ההוראות הנוספות</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

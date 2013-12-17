@@ -1,0 +1,17 @@
+Title:
+תזכורת ראשונה: חיוב שעבר תוקפו
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>עסקה {$invoice_num} אשר נוצרה בתאריך {$invoice_date_created} פגה תוקף.</p>
+<p>&nbsp;</p>
+<p>שיטת התשלום שלך: {$invoice_payment_method}</p>
+<p>עסקה: {$invoice_num}<br /> סכום: {$invoice_total}<br /> תוקף העסקה: {$invoice_date_due}</p>
+<p>את/ה יכול/ה להכנס לאזור הלקוחות לסקור או לשלם עבור העסקה ב {$invoice_link}</p>
+<p>פרטי ההתחברות שלך הם:</p>
+<p>דוא"ל: {$client_email}<br /> סיסמה: {$client_password}</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

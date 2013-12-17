@@ -1,0 +1,15 @@
+Title:
+תזכורת: חיוב עוד לפוג
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>זאת תזכרות בדבר חיוב קיים לתאריך {$invoice_date_due}.</p>
+<p>לא הצלחנו לבצע חיוב באופן אוטומטי מכיוון שפרטי כרטיס האשראי אינם שמורים במערכת.</p>
+<p>תאריך חיוב: {$invoice_date_created}<br />חיוב #{$invoice_num}<br />סכום: {$invoice_total}<br />תוקף העסקה: {$invoice_date_due}</p>
+<p>התחבר לאזור הלקוחות בקישור המצורף, בכדי להוסיף פרטי כרטיס אשראי או לבחור שיטת תשלום שונה.</p>
+<p>{$invoice_link}</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

@@ -1,0 +1,16 @@
+Title:
+חיוב לקוח
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>זוהי הודעה עבור ביצוע העסקה שנוצרה ב {$invoice_date_created}.</p>
+<p>שיטת התשלום שלך היא: {$invoice_payment_method}</p>
+<p>עסקה #{$invoice_num}<br /> סכום: {$invoice_total}<br /> תוקף העסקה: {$invoice_date_due}</p>
+<p><strong>פרטי העסקה<br /></strong></p>
+<p>{$invoice_html_contents} <br /> ------------------------------------------------------</p>
+<p>את/ה יכול/ה להכנס לאזור הלקוחות שלנו לסקירה ולתשלום בעבור העסקה ב: {$invoice_link}</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

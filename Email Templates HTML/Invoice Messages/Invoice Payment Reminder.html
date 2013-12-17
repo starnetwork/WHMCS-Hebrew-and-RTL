@@ -1,0 +1,15 @@
+Title:
+תזכורת חיוב לקוח
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>זוהי הודעת תזכורת כי ביצוע תשלום של עסקה מס' {$invoice_num} אשר נוצרה בתאריך {$invoice_date_created} בתוקף עד&nbsp; {$invoice_date_due}.</p>
+<p>שיטת התשלום שלך היא: {$invoice_payment_method}</p>
+<p>עסקה: {$invoice_num}<br /> כמות: {$invoice_total}<br /> תוקף עסקה: {$invoice_date_due}</p>
+<p>&nbsp;</p>
+<p>את/ה יכול/ה להכנס לאזור הלקוחות שלנו לסקירה ולתשלום בעבור העסקה ב: {$invoice_link}</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>{$signature}</p>
+</div>

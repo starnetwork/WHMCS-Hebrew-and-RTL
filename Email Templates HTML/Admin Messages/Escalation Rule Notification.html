@@ -1,0 +1,9 @@
+Title:
+[Ticket ID: {$tickettid}] חוקי דירוג הופעלו
+
+Content:
+<p>The escalation rule {$rule_name} has just been applied to this ticket.</p>
+<p>Client: {$client_name}{if $client_id} #{$client_id}{/if} <br />Department: {$ticket_department} <br />Subject: {$ticket_subject} <br />Priority: {$ticket_priority}</p>
+<p>---<br />{$ticket_message}<br />---</p>
+<p>You can respond to this ticket by simply replying to this email or through the admin area at the url below.</p>
+<p><a href="{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}">{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}</a></p>

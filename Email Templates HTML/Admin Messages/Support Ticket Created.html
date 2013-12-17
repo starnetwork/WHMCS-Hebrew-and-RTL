@@ -1,0 +1,11 @@
+Title:
+[מזהה כרטיס: {$ticket_tid}] כרטיס תמיכה חדש
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>נפתח כרטיס פנייה חדש.</p>
+<p>לקוח: {$client_name}{if $client_id} #{$client_id}{/if}<br />מחלקה: {$ticket_department}<br />נושא: {$ticket_subject}<br />חשיבות: {$ticket_priority}</p>
+<p>---<br />{$ticket_message}<br />---</p>
+<p>אתה יכול להשיב על כרטיס הפנייה באמצעות מענה לדוא"ל זה או דרך ממשק הניהול בכתובת המצורפת.</p>
+<p><a href="{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}">{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}</a></p>
+</div>

@@ -1,0 +1,19 @@
+Title:
+WHMCS הזמנה חדשה
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p><strong>פרטי הזמנה</strong></p>
+<p>מזהה הזמנה: {$order_id}<br /> מס' הזמנה: {$order_number}<br /> תארי/זמן: {$order_date}<br /> מזהה תשלום: {$invoice_id}<br /> סוג תשלום: {$order_payment_method}</p>
+<p><strong>פרטי לקוח</strong></p>
+<p>מזהה לקוח: {$client_id}<br /> שם: {$client_first_name} {$client_last_name}<br /> דוא"ל: {$client_email}<br /> חברה: {$client_company_name}<br /> כתובת ראשונה: {$client_address1}<br /> כתובת שנייה: {$client_address2}<br /> עיר: {$client_city}<br /> State: {$client_state}<br /> מיקוד: {$client_postcode}<br /> מדינה: {$client_country}<br /> מס' טלפון: {$client_phonenumber}</p>
+<p><strong>פירוט</strong></p>
+<p>{$order_items}</p>
+<p>{if $order_notes}</p>
+<p><strong>הערות</strong></p>
+<p>{$order_notes}</p>
+<p>{/if}</p>
+<p><strong> מידע ISP</strong></p>
+<p>IP: {$client_ip}<br /> Host: {$client_hostname}</p>
+<p><a href="{$whmcs_admin_url}orders.php?action=view&amp;id={$order_id}">{$whmcs_admin_url}orders.php?action=view&amp;id={$order_id}</a></p>
+</div>

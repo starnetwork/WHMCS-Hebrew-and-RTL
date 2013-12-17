@@ -1,0 +1,14 @@
+Title:
+אישור ביצוע תשלום וחשבונית מס
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p>שלום {$client_name},</p>
+<p>זוהי הודעת התשלום עבור חשבונית {$invoice_num} אשר נשלחה בתאריך {$invoice_date_created}</p>
+<p>{$invoice_html_contents}</p>
+<p>סכום: {$invoice_last_payment_amount}<br />עסקה #: {$invoice_last_payment_transid}<br />סה"כ שולם: {$invoice_amount_paid}<br />מאזן עדכני: {$invoice_balance}<br />סטאטוס: {$invoice_status}</p>
+<p>הינך יכול\ה לסקור את היסטורית החיובים שלך באזור הלקוחות.</p>
+{assign var='hash' value=$client_email|cat:"hashkeyforautologin"}
+<p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
+<p>לתשומת ליבך: במידה ומדובר בתשלום מלא עבור החשבונית, חשבונית מס \ קבלה תצורף למייל זה.<br />{$signature}</p>
+</div>
