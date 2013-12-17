@@ -1,0 +1,11 @@
+Title:
+wbTeamPro Ticket {if $oldticketxref.xref_id}Unlinked{else}Linked{/if}: {$ticket.title} [{$ticket.tid}]
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p><strong>{if $oldticketxref.xref_id}Ticket Removed from Project{else}Ticket Added to Project{/if}<br />{if $admin}by Admin: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}by Client: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
+<p>Project Name: {$project.project_name}<br />Project ID: {$project.project_id} <br />Project Client: {$project.client_userid}<br />Project Status: {$project.project_status} <br />Project Complete: {$project.project_complete}<br />Timelog Elapsed: {$project.timelog_elapsed}</p>
+<h3><strong>Ticket Values<br /></strong></h3>
+<p>Ticket Key: {$ticket.tid} <br />Ticket Title: {$ticket.title} <br />Ticket Email: {$ticket.email}<br />Ticket Urgency: {$ticket.urgency}</p>
+<p>&nbsp;</p>
+</div>

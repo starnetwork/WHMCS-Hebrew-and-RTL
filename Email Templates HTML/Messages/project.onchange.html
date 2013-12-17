@@ -1,0 +1,11 @@
+Title:
+wbTeamPro Project: {$project.project_name} #{$project.project_id}
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p><strong>{if $admin} עודכן על ידי: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client} עודכן על ידי לקוח: {$client.firstname} {$client.lastname} #{$client.id}{/if} </strong></p>
+<p>שם הפרוייקט: {$project.project_name}<br /> פרוייקט מספר: {$project.project_id} <br /> סטטוס הפרוייקט: {$project.project_status} <br /> ביצוע באחוזים: {$project.project_complete}<br /> אחראי הפרוייקט: {$project.manager_adminid} <br /> מנהל הפרוייקט: {$project.assigned_adminid}<br /> הלקוח: {$project.client_userid}<br /> איש הקשר: {$project.client_contactid}<br /> זמן עבודה: {$project.timelog_elapsed}</p>
+<h3>פרטים קודמים שעודכנו</h3>
+<p>שם הפרוייקט: {$oldproject.project_name}<br /> פרוייקט מספר: {$oldproject.project_id}<br /> סטטוס הפרוייקט: {$oldproject.project_status}<br /> ביצוע באחוזים: {$oldproject.project_complete}<br /> אחראי הפרוייקט: {$oldproject.manager_adminid}<br /> מנהל הפרוייקט: {$oldproject.assigned_adminid}<br /> הלקוח: {$oldproject.client_userid}<br /> איש הקשר: {$oldproject.client_contactid}</p>
+<p>&nbsp;</p>
+</div>

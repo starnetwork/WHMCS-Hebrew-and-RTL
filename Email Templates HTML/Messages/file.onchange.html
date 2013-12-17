@@ -1,0 +1,14 @@
+Title:
+wbTeamPro File: {$file.file_label} #{$file.file_id}
+
+Content:
+<div style="direction: rtl; text-align: right;">
+<p><strong>{if $oldfile.file_id}File Updated{else}New File Added{/if}<br />{if $admin}by Admin: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}by Client: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
+<p>Project Name: {$project.project_name}<br />Project ID: {$project.project_id} <br />Project Client: {$project.client_userid}<br />Project Status: {$project.project_status} <br />Project Complete: {$project.project_complete}<br />Timelog Elapsed: {$project.timelog_elapsed}</p>
+<h3><strong>File Values<br /></strong></h3>
+<p>File ID: {$file.file_id} <br />File Label: {$file.file_label}<br />File Version: {$file.file_version}<br /> File Info: {$file.file_name}, {$file.file_mime}, {$file.file_size}<br />File Detail: {$file.file_detail}</p>
+<p>{if $oldfile.file_id}</p>
+<h3>Previous Values</h3>
+<p>File ID: {$oldfile.file_id} <br /> File Label: {$oldfile.file_label}<br /> File Version: {$oldfile.file_version}<br /> File Info: {$oldfile.file_name}, {$oldfile.file_mime}, {$oldfile.file_size}<br /> File Detail: {$oldfile.file_detail}</p>
+<p>{/if}</p>
+</div>
