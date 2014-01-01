@@ -1,14 +1,14 @@
 Title:
-wbTeamPro Action: {$action.action_name} #{$action.action_id}
+פעולה ב - wbTeamPro: {$action.action_name} #{$action.action_id}
 
 Content:
 <div style="direction: rtl; text-align: right;">
-<p><strong>{if $admin}Updated by Admin: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}Updated by Client: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
-<p>Project Name: {$project.project_name}<br />Project ID: {$project.project_id} <br />Project Status: {$project.project_status} <br />Project Complete: {$project.project_complete}<br />Timelog Elapsed: {$project.timelog_elapsed}</p>
-<h3>New Action Values</h3>
-<p>Action Name: {$action.action_name} <br />Action ID: {$action.action_id} <br />Action Complete %: {$action.action_complete} <br />Action Status: {$action.action_status} <br />Action Manager: {$action.manager_adminid} <br />Action Assigned: {$action.assigned_adminid}<br />Action Contact: {$action.client_contactid}<br />Timelog Elapsed: {$action.timelog_elapsed}</p>
+<p><strong>{if $admin}עודכן על ידי המנהל: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}עודכן על ידי הלקוח: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
+<p>שם הפרויקט: {$project.project_name}<br />פרוייקט מספר: {$project.project_id} <br />סטטוס הפרוייקט: {$project.project_status} <br />ביצוע באחוזים: {$project.project_complete}<br />זמן שהושקע: {$project.timelog_elapsed}</p>
+<h3>פרטי הפעולה החדשה</h3>
+<p>שם הפעולה: {$action.action_name} <br />מספר פעולה: {$action.action_id} <br />ביצוע באחוזים: {$action.action_complete} <br />סטאטוס הפעולה: {$action.action_status} <br />מנהל הפעולה: {$action.manager_adminid} <br />שויך ל: {$action.assigned_adminid}<br />ליצירת קשר: {$action.client_contactid}<br />זמן שהושקע: {$action.timelog_elapsed}</p>
 <p>{if $oldaction.action_id}</p>
-<h3>Previous Values</h3>
-<p>Action Name: {$oldaction.action_name}<br />Action ID: {$oldaction.action_id}<br />Action Complete %: {$oldaction.action_complete}<br />Action Status: {$oldaction.action_status}<br />Action Manager: {$oldaction.manager_adminid} <br />Action Assigned: {$oldaction.assigned_adminid}<br />Action Contact: {$action.client_contactid}</p>
+<h3>ערכים קודמים</h3>
+<p>שם הפעולה: {$oldaction.action_name}<br />מספר הפעולה: {$oldaction.action_id}<br />ביצוע באחוזים: {$oldaction.action_complete}<br />סטאטוס הפעולה: {$oldaction.action_status}<br />מנהל הפעולה: {$oldaction.manager_adminid} <br />שויך ל: {$oldaction.assigned_adminid}<br />ליצירת קשר: {$action.client_contactid}</p>
 <p>{/if}</p>
 </div>

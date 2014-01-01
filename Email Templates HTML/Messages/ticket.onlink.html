@@ -1,11 +1,11 @@
 Title:
-wbTeamPro Ticket {if $oldticketxref.xref_id}Unlinked{else}Linked{/if}: {$ticket.title} [{$ticket.tid}]
+כרטיס פנייה ב wbTeamPro {if $oldticketxref.xref_id}לא מקושר{else}מקושר{/if}: {$ticket.title} [{$ticket.tid}]
 
 Content:
 <div style="direction: rtl; text-align: right;">
-<p><strong>{if $oldticketxref.xref_id}Ticket Removed from Project{else}Ticket Added to Project{/if}<br />{if $admin}by Admin: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}by Client: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
-<p>Project Name: {$project.project_name}<br />Project ID: {$project.project_id} <br />Project Client: {$project.client_userid}<br />Project Status: {$project.project_status} <br />Project Complete: {$project.project_complete}<br />Timelog Elapsed: {$project.timelog_elapsed}</p>
-<h3><strong>Ticket Values<br /></strong></h3>
-<p>Ticket Key: {$ticket.tid} <br />Ticket Title: {$ticket.title} <br />Ticket Email: {$ticket.email}<br />Ticket Urgency: {$ticket.urgency}</p>
+<p><strong>{if $oldticketxref.xref_id}כרטיס הפנייה הוסר מהפרויקט{else}כרטיס התווסף לפרויקט{/if}<br />{if $admin}על ידי המנהל: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}על ידי הלקוח: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
+<p>שם הפרויקט: {$project.project_name}<br />פרוייקט מספר: {$project.project_id} <br />לקוח הפרויקט: {$project.client_userid}<br />סטטוס הפרוייקט: {$project.project_status} <br />ביצוע באחוזים: {$project.project_complete}<br />זמן שהושקע: {$project.timelog_elapsed}</p>
+<h3><strong>פרטי כרטיס פנייה<br /></strong></h3>
+<p>מפתח כרטיס פנייה: {$ticket.tid} <br />כותרת: {$ticket.title} <br />כתובת מייל: {$ticket.email}<br />עדיפות: {$ticket.urgency}</p>
 <p>&nbsp;</p>
 </div>

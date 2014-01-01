@@ -1,20 +1,20 @@
 Title:
-wbTeamPro Topic: {$topic.topic_name} #{$topic.topic_id}
+נושא ב - wbTeamPro: {$topic.topic_name} #{$topic.topic_id}
 
 Content:
 <div style="direction: rtl; text-align: right;">
-<p><strong>{if $oldtopic.topic_id}Topic Updated{else}New Topic Post{/if}<br /></strong><strong>{if $admin}by Admin: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}by Client: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
-<p>Project Name: {$project.project_name}<br />Project ID: {$project.project_id} <br />Project Client: {$project.client_userid}<br />Project Status: {$project.project_status} <br />Project Complete: {$project.project_complete}<br />Timelog Elapsed: {$project.timelog_elapsed}</p>
+<p><strong>{if $oldtopic.topic_id}הנושא עודכן{else}נושא חדש{/if}<br /></strong><strong>{if $admin}על ידי המנהל: {$admin.firstname} {$admin.lastname} #{$admin.id}{else if $client}על ידי הלקוח: {$client.firstname} {$client.lastname} #{$client.id}{/if}</strong></p>
+<p>שם הפרויקט: {$project.project_name}<br />פרוייקט מספר: {$project.project_id} <br />לקוח הפרוייקט: {$project.client_userid}<br />סטטוס הפרוייקט: {$project.project_status} <br />ביצוע באחוזים: {$project.project_complete}<br />זמן שהושקע: {$project.timelog_elapsed}</p>
 <p>{if $topic.thread_topic_id == $topic.topic_id}</p>
-<h3><strong>Topic Thread</strong></h3>
+<h3><strong>שרשור נושא</strong></h3>
 <p>{else}</p>
-<h3>Topic Thread</h3>
-<p>Topic ID: {$threadtopic.topic_id} <br />Topic Name: {$threadtopic.topic_name}<br />Topic Detail: {$threadtopic.topic_detail}</p>
-<h3>Topic Post</h3>
+<h3>שרשור נושא</h3>
+<p>מספר נושא: {$threadtopic.topic_id} <br />שם הנושא: {$threadtopic.topic_name}<br />פרטי הנושא: {$threadtopic.topic_detail}</p>
+<h3>פוסט בנושא</h3>
 <p>{/if}</p>
-<p>Topic ID: {$topic.topic_id} <br />Thread ID: {$topic.thread_topic_id}<br />Topic Name: {$topic.topic_name}<br />Topic Detail: {$topic.topic_detail}</p>
+<p>מספר נושא: {$topic.topic_id} <br />מספר שרשור: {$topic.thread_topic_id}<br />שם הנושא: {$topic.topic_name}<br />פרטי הנושא: {$topic.topic_detail}</p>
 <p>{if $oldtopic.topic_id}</p>
-<h3>Previous Values</h3>
-<p>Topic ID: {$oldtopic.topic_id} <br /> Topic Name: {$oldtopic.topic_name}<br />Topic Detail: {$oldtopic.topic_detail}</p>
+<h3>ערכים קודמים</h3>
+<p>מספר נושא: {$oldtopic.topic_id} <br /> שם הנושא: {$oldtopic.topic_name}<br />פרטי הנושא: {$oldtopic.topic_detail}</p>
 <p>{/if}</p>
 </div>
