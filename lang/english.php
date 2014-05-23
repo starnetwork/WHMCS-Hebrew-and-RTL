@@ -1,4 +1,23 @@
 <?php
+/**
+ * WHMCS Language File
+ * English (en)
+ *
+ * Please Note: These language files are overwritten during software updates
+ * and therefore editing of these files directly is not advised. Instead we
+ * recommend that you use overrides to customise the text displayed in a way
+ * which will be safely preserved through the upgrade process.
+ *
+ * For instructions on overrides, please visit:
+ *   http://docs.whmcs.com/Language_Overrides
+ *
+ * @package    WHMCS
+ * @author     WHMCS Limited <development@whmcs.com>
+ * @copyright  Copyright (c) WHMCS Limited 2005-2013
+ * @license    http://www.whmcs.com/license/ WHMCS Eula
+ * @version    $Id$
+ * @link       http://www.whmcs.com/
+ */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
@@ -1063,7 +1082,7 @@ $_LANG['recurringpromodesc'] = "This promotion code also includes a %s Recurring
 # Version 4.5.2
 
 $_LANG['ajaxcartcheckout'] = "Jump straight to checkout &raquo;";
-$_LANG['ordersummarybegin'] = "Shopping Cart is Empty<br/>Please choose a product to begin...";
+$_LANG['ordersummarybegin'] = "Shopping Cart is Empty<br/>Please choose a product and domain name option to begin...";
 $_LANG['ajaxcartconfigreqnotice'] = "You're on the way to signing up with us, but you must choose a domain before you can add the selected product to your cart...";
 
 # Version 5.0.0
@@ -1411,20 +1430,20 @@ $_LANG['returnclient'] = "Return to Client Area";
 
 $_LANG['clientareanavsecurity'] = "Security Settings";
 $_LANG['twofactorauth'] = "Two-Factor Authentication";
-$_LANG['twofaenable'] = "Enable ".$_LANG['twofactorauth'];
-$_LANG['twofadisable'] = "Disable ".$_LANG['twofactorauth'];
+$_LANG['twofaenable'] = "Enable Two-Factor Authentication";
+$_LANG['twofadisable'] = "Disable Two-Factor Authentication";
 $_LANG['twofaenableclickhere'] = "Click here to Enable";
 $_LANG['twofadisableclickhere'] = "Click here to Disable";
-$_LANG['twofaenforced'] = "For your security, we require that you must enable ".$_LANG['twofactorauth']." before you can continue. This page will guide you through the process of setting it up.";
+$_LANG['twofaenforced'] = "For your security, we require that you must enable Two-Factor Authentication before you can continue. This page will guide you through the process of setting it up.";
 $_LANG['twofasetup'] = "Two-Factor Authentication Setup Process";
 $_LANG['twofasetupgetstarted'] = "Get Started";
-$_LANG['twofaactivationintro'] = $_LANG['twofactorauth']." adds an extra layer of protection to logins. Once enabled &amp; configured, each time you sign in you will be asked to enter both your username & password as well as a second factor such as a security code.";
-$_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired ".$_LANG['twofactorauth']." method from below.";
-$_LANG['twofadisableintro'] = "To disable ".$_LANG['twofactorauth']." please confirm your password in the field below.";
-$_LANG['twofaactivationerror'] = "An error occurred while attempting to activate ".$_LANG['twofactorauth']." for your account. Please try again.";
+$_LANG['twofaactivationintro'] = "Two-Factor Authentication adds an extra layer of protection to logins. Once enabled &amp; configured, each time you sign in you will be asked to enter both your username & password as well as a second factor such as a security code.";
+$_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired Two-Factor Authentication method from below.";
+$_LANG['twofadisableintro'] = "To disable Two-Factor Authentication please confirm your password in the field below.";
+$_LANG['twofaactivationerror'] = "An error occurred while attempting to activate Two-Factor Authentication for your account. Please try again.";
 $_LANG['twofamoduleerror'] = "An error occurred loading the module. Please try again.";
-$_LANG['twofaactivationcomplete'] = $_LANG['twofactorauth']." Setup is Complete!";
-$_LANG['twofadisableconfirmation'] = $_LANG['twofactorauth']." has now been disabled for your account.";
+$_LANG['twofaactivationcomplete'] = "Two-Factor Authentication Setup is Complete!";
+$_LANG['twofadisableconfirmation'] = "Two-Factor Authentication has now been disabled for your account.";
 $_LANG['twofabackupcodeis'] = "Your Backup Code is";
 $_LANG['twofanewbackupcodeis'] = "Your New Backup Code is";
 $_LANG['twofabackupcodelogin'] = "Enter Your Backup Code Above to Login";
@@ -1440,3 +1459,58 @@ $_LANG['twofageneralerror'] = "An error occurred loading the module. Please try 
 $_LANG['continue'] = "Continue";
 $_LANG['disable'] = "Disable";
 $_LANG['manage'] = "Manage";
+
+# Version 5.3
+$_LANG['quoteacceptancetitle'] = "Quote Acceptance";
+$_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
+$_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+
+$_LANG['passwordstrength'] = "Password Strength";
+$_LANG['strong'] = "Strong";
+$_LANG['moderate'] = "Moderate";
+$_LANG['weak'] = "Weak";
+
+$_LANG['contactform'] = "Contact Form";
+
+$_LANG['twoipverificationstep'] = "Verification Step";
+$_LANG['twoipverificationstepmsg'] = "Enter the security code generated by your mobile authenticator app and we'll make sure it's configured correctly before enabling it.";
+$_LANG['twoipverificationerror'] = "It seem's there's a problem...";
+$_LANG['twoipcodemissmatch'] = "The code you entered did not match what was expected. Please try again.";
+$_LANG['twoiptimebasedpassword'] = "Time-based One-Time Password";
+$_LANG['twoiptimebasedexplain'] = "This authentication option get's it's second factor using a time based algorithm.  Your mobile phone can be used to generate the codes.  If you don't already have an app that can do this, we recommend Google Authenticator which is available for iOS, Android and Windows mobile devices.";
+$_LANG['twoipconfigureapp'] = "To configure your authenticator app:";
+$_LANG['twoipconfigurestep1'] = "Begin by selecting to add a new time based token";
+$_LANG['twoipconfigurestep2'] = "Then use your app to scan the barcode below, or alternatively enter this secret key manually: ";
+$_LANG['twoipgdmissing'] = "GD is missing from the PHP build on your server so unable to generate image";
+
+$_LANG['domaincontactdetails']['First Name'] = "First Name";
+$_LANG['domaincontactdetails']['Last Name'] = "Last Name";
+$_LANG['domaincontactdetails']['Full Name'] = "Full Name";
+$_LANG['domaincontactdetails']['Contact Name'] = "Contact Name";
+$_LANG['domaincontactdetails']['Email'] = "Email";
+$_LANG['domaincontactdetails']['Email Address'] = "Email Address";
+$_LANG['domaincontactdetails']['Job Title'] = "Job Title";
+$_LANG['domaincontactdetails']['Company Name'] = "Company Name";
+$_LANG['domaincontactdetails']['Organisation Name'] = "Organisation Name";
+$_LANG['domaincontactdetails']['Address'] = "Address";
+$_LANG['domaincontactdetails']['Street'] = "Street";
+$_LANG['domaincontactdetails']['Address 1'] = "Address 1";
+$_LANG['domaincontactdetails']['Address 2'] = "Address 2";
+$_LANG['domaincontactdetails']['Address 3'] = "Address 3";
+$_LANG['domaincontactdetails']['City'] = "City";
+$_LANG['domaincontactdetails']['State'] = "State";
+$_LANG['domaincontactdetails']['County'] = "County";
+$_LANG['domaincontactdetails']['Region'] = "Region";
+$_LANG['domaincontactdetails']['Postcode'] = "Postcode";
+$_LANG['domaincontactdetails']['ZIP Code'] = "ZIP Code";
+$_LANG['domaincontactdetails']['ZIP'] = "ZIP";
+$_LANG['domaincontactdetails']['Country'] = "Country";
+$_LANG['domaincontactdetails']['Phone'] = "Phone";
+$_LANG['domaincontactdetails']['Phone Number'] = "Phone Number";
+$_LANG['domaincontactdetails']['Fax'] = "Fax";
+
+$_LANG['serverhostnameexample'] = "eg. server1(.yourdomain.com)";
+$_LANG['serverns1prefixexample'] = "eg. ns1(.yourdomain.com)";
+$_LANG['serverns2prefixexample'] = "eg. ns2(.yourdomain.com)";
+
+$_LANG['hosting'] = "Hosting";
