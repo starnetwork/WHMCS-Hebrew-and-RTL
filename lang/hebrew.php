@@ -1396,6 +1396,7 @@ $_LANG['emailoptout'] = "ביטול הרשמה לניוזלטר";
 $_LANG['newsletterunsubscribe'] = "ביטול מנוי לניולזלטר";
 $_LANG['emailoptoutdesc'] = "סמן כדי לבטל את המנוי לניוזלטר שלנו";
 $_LANG['alreadyunsubscribed'] = "כבר ביטלת את המנוי לניוזלטר שלנו.";
+<<<<<<< HEAD
 $_LANG['newsletterresubscribe'] = "אם ברצונך להירשם מחדש אתה יכול לעשות זאת מ %sMy Details%s  קטע של אזור הלקוח שלנו בכל עת.";
 $_LANG['unsubscribehashinvalid'] = "ביטול המנוי נכשל, אנא פנה לתמיכה.";
 $_LANG['unsubscribesuccess'] = "המנוי בוטל בהצלחה";
@@ -1404,11 +1405,22 @@ $_LANG['erroroccured'] = "אירעה שגיאה";
 $_LANG['pwresetsuccessdesc'] = "סיסמתך אופסה. %sClick here%s כדי להמשיך לאזור הלקוח ...";
 $_LANG['pwresetenternewpw'] = "נא להזין את הסיסמה החדשה הרצויה מתחת.";
 $_LANG['ordererrorsbudomainbanned'] = "קידומת המשנה שהזנת אינה מותרת - נסה אחר";
+=======
+$_LANG['newsletterresubscribe'] = "If you wish to re-subscribe you can do so from the %sMy Details%s section of our client area at any time.";
+$_LANG['unsubscribehashinvalid'] = "Unsubscribe failed, please contact support.";
+$_LANG['unsubscribesuccess'] = "Unsubscribe Successful";
+$_LANG['newsletterremoved'] = "Thank you, Your email has now been removed from our mailing list.";
+$_LANG['erroroccured'] = "An Error Occurred";
+$_LANG['pwresetsuccessdesc'] = "Your password has now been reset. %sClick here%s to continue to the client area...";
+$_LANG['pwresetenternewpw'] = "Please enter your desired new password below.";
+$_LANG['ordererrorsbudomainbanned'] = "The subdomain prefix you entered is not allowed - please try another";
+>>>>>>> 8ded17cc88ab9781824eae78cca1040af0d84005
 
 $_LANG['ticketfeedbacktitle'] = "בקשת פידבק לכרטיס התמיכה";
 
 $_LANG['nosupportdepartments'] = "לא נמצאו מחלקות תמיכה, נא לנסות שוב מאוחר יותר";
 
+<<<<<<< HEAD
 $_LANG['feedbackclosed'] = "המשוב לא יכול להיות מסופק עד שהכרטיס ייסגר";
 $_LANG['feedbackprovided'] = "כבר סופק משוב לכרטיס הזה";
 $_LANG['feedbackthankyou'] = "אנו מודים לך על שהקדשת מהזמן כדי לספק את המשוב שלך.";
@@ -1427,6 +1439,26 @@ $_LANG['feedbackbest'] = "הטוב ביותר";
 $_LANG['feedbackimprove'] = "כיצד אנו יכולים להפוך את החוויה שלך לטובה יותר בעתיד?";
 $_LANG['pleaserate2'] = "טיפלנו בבקשת תמיכה זו";
 $_LANG['returnclient'] = "לחזור לאזור הלקוח";
+=======
+$_LANG['feedbackclosed'] = "Feedback cannot be provided until the ticket is closed";
+$_LANG['feedbackprovided'] = "You have already provided feedback for this ticket";
+$_LANG['feedbackthankyou'] = "We thank you for taking the time to provide your feedback.";
+$_LANG['feedbackreceived'] = "Submission Received";
+$_LANG['feedbackdesc'] = "Please can we ask you to take a moment of your time to fill out the below form about the quality of your experience with our support team.";
+$_LANG['feedbackclickreview'] = "Click here to Review The Ticket";
+$_LANG['feedbackopenedat'] = "Opened At";
+$_LANG['feedbacklastreplied'] = "Last Replied To";
+$_LANG['feedbackstaffinvolved'] = "Staff Involved";
+$_LANG['feedbacktotalduration'] = "Total Duration";
+$_LANG['feedbackpleaserate1'] = "Please rate (on a scale of 1 to 10) how well";
+$_LANG['feedbackpleasecomment1'] = "Please comment on how well";
+$_LANG['feedbackhandled'] = "handled this support request";
+$_LANG['feedbackworst'] = "Worst";
+$_LANG['feedbackbest'] = "Best";
+$_LANG['feedbackimprove'] = "How may we make your experience better in the future?";
+$_LANG['pleaserate2'] = "handled this support request";
+$_LANG['returnclient'] = "Return to Client Area";
+>>>>>>> 8ded17cc88ab9781824eae78cca1040af0d84005
 
 $_LANG['clientareanavsecurity'] = "הגדרות אבטחה";
 $_LANG['twofactorauth'] = "אימות של שני גורמים";
@@ -1435,6 +1467,7 @@ $_LANG['twofadisable'] = "בטל ".$_LANG['twofactorauth'];
 $_LANG['twofaenableclickhere'] = "לחצו כאן כדי לאפשר";
 $_LANG['twofadisableclickhere'] = "לחצו כאן כדי לבטל";
 $_LANG['twofaenforced'] = "The system administrator has enforced that you must enable ".$_LANG['twofactorauth']." before you can continue. This page will guide you through the process of setting it up.";
+<<<<<<< HEAD
 $_LANG['twofasetup'] = "הגדרת תהליך אימות של שני גורמים";
 $_LANG['twofasetupgetstarted'] = "התחל לעבוד";
 $_LANG['twofaactivationintro'] = $_LANG['twofactorauth']." מוסיף שכבה נוספת של הגנה לכניסות. ברגע שתאפשר &amp; הגדרה זו, בכל פעם שתיכנס אתה תתבקש להזין את השם משתמש ואת הסיסמה, כמו גם גורם שני כגון קוד אבטחה.";
@@ -1459,3 +1492,25 @@ $_LANG['twofageneralerror'] = "אירעה שגיאה בטעינת המודול. 
 $_LANG['continue'] = "המשך";
 $_LANG['disable'] = "לא לבצע";
 $_LANG['manage'] = "לנהל";
+=======
+$_LANG['twofasetup'] = "Two-Factor Authentication Setup Process";
+$_LANG['twofasetupgetstarted'] = "Get Started";
+$_LANG['twofaactivationintro'] = $_LANG['twofactorauth']." adds an extra layer of protection to logins. Once enabled &amp; configured, each time you sign in you will be asked to enter both your username & password as well as a second factor such as a security code.";
+$_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired ".$_LANG['twofactorauth']." method from below.";
+$_LANG['twofadisableintro'] = "To disable ".$_LANG['twofactorauth']." please confirm your password in the field below.";
+$_LANG['twofaactivationerror'] = "An error occurred while attempting to activate ".$_LANG['twofactorauth']." for your account. Please try again.";
+$_LANG['twofamoduleerror'] = "An error occurred loading the module. Please try again.";
+$_LANG['twofaactivationcomplete'] = $_LANG['twofactorauth']." Setup is Complete!";
+$_LANG['twofadisableconfirmation'] = $_LANG['twofactorauth']." has now been disabled for your account.";
+$_LANG['twofabackupcodeis'] = "Your Backup Code is";
+$_LANG['twofabackupcodeexpl'] = "Write this down on paper and keep it safe.<br />It will be needed if you ever lose your 2nd factor device or it is unavailable to you.";
+$_LANG['twofaconfirmpw'] = "Enter Your Password";
+$_LANG['twofa2ndfactorreq'] = "Your second factor is required to complete login.";
+$_LANG['twofa2ndfactorincorrect'] = "The second factor you supplied was incorrect. Please try again.";
+$_LANG['twofabackupcodereset'] = "Login via Backup Code Successful. Backup Codes are valid once only. It will now be reset.";
+$_LANG['twofacantaccess2ndfactor'] = "Can't Access Your 2nd Factor Device?";
+$_LANG['twofaloginusingbackupcode'] = "Login using Backup Code";
+
+
+
+>>>>>>> 8ded17cc88ab9781824eae78cca1040af0d84005
