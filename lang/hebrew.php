@@ -1,4 +1,25 @@
 <?php
+/**
+ * WHMCS Language File
+ * English (en)
+ *
+ * Please Note: These language files are overwritten during software updates
+ * and therefore editing of these files directly is not advised. Instead we
+ * recommend that you use overrides to customise the text displayed in a way
+ * which will be safely preserved through the upgrade process.
+ *
+ * For instructions on overrides, please visit:
+ *   http://docs.whmcs.com/Language_Overrides
+ *
+ * @package    WHMCS
+ * @author     WHMCS Limited <development@whmcs.com>
+ * @copyright  Copyright (c) WHMCS Limited 2005-2013
+ * @license    http://www.whmcs.com/license/ WHMCS Eula
+ * @version    $Id$
+ * @link       http://www.whmcs.com/
+ */
+
+if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_LANG['isocode'] = 'he';
 
@@ -6,7 +27,6 @@ $_LANG['accountinfo'] = "פרטי החשבון";
 $_LANG['accountstats'] = "סטטיסטיקה";
 $_LANG['addfunds'] = "הוסף סכום";
 $_LANG['addfundsamount'] = "סכום להוספה";
-
 $_LANG['addfundsmaximum'] = "מקסימום להפקדה";
 $_LANG['addfundsmaximumbalance'] = "סכום מקסימלי לחשבון";
 $_LANG['addfundsmaximumbalanceerror'] = "הסכום המקסימלי לחשבון הוא";
@@ -90,6 +110,7 @@ $_LANG['choosedomains'] = "בחר דומיינים";
 $_LANG['clickheretologin'] = "לחץ כאן כדי להתחבר למערכת";
 $_LANG['clientareaaccountaddons'] = "תוספות לחשבון";
 $_LANG['clientareaactive'] = "פעיל";
+$_LANG['clientareaaddfundsdisabled'] = "אנחנו לא מאפשרים הפקדת כספים מראש אצלנו בתקופה הנוכחית.";
 $_LANG['clientareaaddfundsnotallowed'] = "חייב לבצע לפחות הזמנה אחת במערכת כדי להוסיף כסף לחשבון שלך, לא ניתן לבצע טעינה כרגע!";
 $_LANG['clientareaaddon'] = "תוספת";
 $_LANG['clientareaaddonorderconfirmation'] = "תודה לך, ההזמנה עודכנת במערכת, נא בחר את אמצעי התשלום עבור ההזמנה.";
@@ -97,7 +118,6 @@ $_LANG['clientareaaddonpricing'] = "תמחור";
 $_LANG['clientareaaddonsfor'] = "תוספים עבור";
 $_LANG['clientareaaddress1'] = "שורת כתובת 1";
 $_LANG['clientareaaddress2'] = "שורת כתובת 2";
-$_LANG['clientareabacklink'] = "&lt;&lt; חזור";
 $_LANG['clientareabwlimit'] = "הגבלת תעבורה";
 $_LANG['clientareabwusage'] = "תעבורה בשימוש";
 $_LANG['clientareacancel'] = "בטל שינויים";
@@ -124,7 +144,6 @@ $_LANG['clientareacontactsemailsinvoice'] = "דואר אלקטרוני לחשב�
 $_LANG['clientareacontactsemailsproduct'] = "דואר אלקטרוני למוצרים - רכישת מוצרים, פרטי הזמנה, מידע וכדומה...";
 $_LANG['clientareacontactsemailssupport'] = "דואר אלקטרוני לתמיכה - מאפשר לפתוח כרטיסי תמיכה בחשבונך";
 $_LANG['clientareacountry'] = "מדינה";
-
 $_LANG['clientareacurrentsecurityanswer'] = "נא הזן את התשובה הנוכחית שלך";
 $_LANG['clientareacurrentsecurityquestion'] = "נא לבחור את שאלת האבטחה שלך";
 $_LANG['clientareadeletecontact'] = "מחק איש קשר";
@@ -167,6 +186,7 @@ $_LANG['clientareafraud'] = "הונאה";
 $_LANG['clientareafullname'] = "שם הלקוח";
 $_LANG['clientareaheader'] = "ברוכים הבאים לאזור הלקוחות שלנו, בו תוכלו לנהל את החשבון שלכם איתנו, דף זה מכיל סקירה כללית של החשבון שלך, לרבות בקשות תמיכה, וחשבוניות שלא שולמו, נא וודאו שפרטי ההתקשרות שלכם מעודכנים.";
 $_LANG['clientareahostingaddons'] = "תוספות";
+$_LANG['clientareahostingaddonsintro'] = "יש לך את התוספות הבאות למוצר זה.";
 $_LANG['clientareahostingaddonsview'] = "צפה";
 $_LANG['clientareahostingamount'] = "סכום";
 $_LANG['clientareahostingdomain'] = "דומיין";
@@ -183,7 +203,6 @@ $_LANG['clientareanameserver'] = "שם שרת DNS";
 $_LANG['clientareanavaddcontact'] = "הוסף איש קשר חדש";
 $_LANG['clientareanavchangecc'] = "שנה פרטי כרטיס אשראי";
 $_LANG['clientareanavchangepw'] = "שנה סיסמה";
-$_LANG['clientareanavcontacts'] = "ניהול אנשי קשר";
 $_LANG['clientareanavdetails'] = "הפרטים שלי";
 $_LANG['clientareanavdomains'] = "הדומיינים שלי";
 $_LANG['clientareanavhome'] = "בית";
@@ -192,7 +211,6 @@ $_LANG['clientareanavorder'] = "הזמנת פריטים נוספים";
 $_LANG['clientareanavsecurityquestions'] = "שנה את שאלת האבטחה שלך";
 $_LANG['clientareanavservices'] = "השירותים שלי";
 $_LANG['clientareanavsupporttickets'] = "פניות ששלחתי";
-$_LANG['clientareanoaddons'] = "לא נמצאו תוספות עבור החשבון הזה";
 $_LANG['clientareanocontacts'] = "לא נמצאו אנשי קשר";
 $_LANG['clientareapassword'] = "סיסמה";
 $_LANG['clientareapending'] = "ממתיו";
@@ -221,8 +239,6 @@ $_LANG['clientareaupdateyourdetails'] = "עדכן את הפרטים שלך";
 $_LANG['clientareaused'] = "בשימוש";
 $_LANG['clientareaviewaddons'] = "צפה בתוספות זמינות";
 $_LANG['clientareaviewdetails'] = "צפה בפרטים";
-
-
 $_LANG['clientlogin'] = "התחברות לקוחות";
 $_LANG['clientregisterheadertext'] = "נא למלא את השדות הבאים כדי להירשם לחשבון חדש.";
 $_LANG['clientregistertitle'] = "הרשם";
@@ -264,7 +280,6 @@ $_LANG['creditcardinvalid'] = "פרטי האשראי שהזנת לא עברו א
 $_LANG['creditcardnumberinvalid'] = "מספר כרטיס האשראי שהזנת לא היה תקין";
 $_LANG['creditcardsecuritynotice'] = "כל המידע שתזין כאן מוגש בצורה מאובטחת ומוצפנת כדי להפחית את הסיכון להונאה";
 $_LANG['creditcarduseexisting'] = "השתמש בכרטיס קיים";
-
 $_LANG['customfieldvalidationerror'] = "הערך לא חוקי";
 $_LANG['days'] = "ימים";
 $_LANG['defaultbillingcontact'] = "פרטי קשר כברירת מחדל";
@@ -312,7 +327,7 @@ $_LANG['domainnameserver2'] = "שם שרת DNS 2";
 $_LANG['domainnameserver3'] = "שם שרת DNS 3";
 $_LANG['domainnameserver4'] = "שם שרת DNS 4";
 $_LANG['domainnameserver5'] = "שם שרת DNS 5";
-$_LANG['domainnameservers'] = "שמות שרתי DNS";
+$_LANG['domainnameservers'] = "שרתי שמות (NS)";
 $_LANG['domainordernow'] = "הזמן עכשיו!";
 $_LANG['domainorderrenew'] = "חדש עכשיו";
 $_LANG['domainprice'] = "מחיר";
@@ -405,7 +420,7 @@ $_LANG['invoicesbefore'] = "לפני";
 $_LANG['invoicescancelled'] = "בוטל";
 $_LANG['invoicescollections'] = "אוספים";
 $_LANG['invoicescredit'] = "שימוש ביתרת זכות \ קרדיט";
-$_LANG['invoicesdatecreated'] = "הופק בתאריך";
+$_LANG['invoicesdatecreated'] = "תאריך יצירת המסמך";
 $_LANG['invoicesdatedue'] = "לתשלום עד";
 $_LANG['invoicesdescription'] = "תאור";
 $_LANG['invoicesdownload'] = "הורדה";
@@ -608,7 +623,7 @@ $_LANG['orderpromoinvalid'] = "קוד הקופון שהוזן אינו חל על
 $_LANG['orderpromomaxusesreached'] = "קוד הקופון שהוזן כבר נוצל";
 $_LANG['orderpromotioncode'] = "קופון הנחה";
 $_LANG['orderpromovalidatebutton'] = "עדכן קוד קופון >>";
-$_LANG['orderprorata'] = "Pro Rata";
+$_LANG['orderprorata'] = "באופן יחסי";
 $_LANG['orderreceived'] = "תודה על ההזמנה. אתה תקבל הודעת דואר אלקטרוני לאישור בקרוב.";
 $_LANG['orderregisterdomain'] = "רישום דומיין חדש";
 $_LANG['orderregperiod'] = "תקופת הרישום";
@@ -666,6 +681,7 @@ $_LANG['securityanswerrequired'] = "אתה נדרש להזין את התשובה
 $_LANG['securitybothnotmatch'] = "התשובה שלך ואישור התשובה אינם תואמים";
 $_LANG['securitycurrentincorrect'] = "השאלה והתשובה שלך אינם נכונים";
 $_LANG['serverchangepassword'] = "שינוי סיסמה";
+$_LANG['serverchangepasswordintro'] = "מכאן תוכל לשנות את הסיסמה של המוצר / השירות (הערה: זה לא ישפיע על הסיסמה שלך לאזור הלקוח שלנו)";
 $_LANG['serverchangepasswordconfirm'] = "אימות סיסמה";
 $_LANG['serverchangepasswordenter'] = "הזן סיסמה חדשה";
 $_LANG['serverchangepasswordfailed'] = "שינוי הסיסמה נכשל!";
@@ -679,7 +695,6 @@ $_LANG['serverns2prefix'] = "NS2 קידומת";
 $_LANG['serverpassword'] = "סיסמה";
 $_LANG['serverrootpw'] = "סיסמת ROOT";
 $_LANG['serverstatusdescription'] = "סטאטוס עדכני על מצב השרתים שלנו ועל זמניות השירותים השונים";
-$_LANG['serverstatusheadingtext'] = "הטבלה שלהלן מציגה את המצב של השרתים שלנו. ניתן להשתמש בדף זה כדי לבדוק אם אחד השירותים על השרתים שלנו לא פעיל.";
 $_LANG['serverstatusnoservers'] = "אין שרתים שמנוטרים כרגע באמצעת המערכת";
 $_LANG['serverstatusnotavailable'] = "לא זמין";
 $_LANG['serverstatusoffline'] = "לא זמין";
@@ -716,7 +731,6 @@ $_LANG['statsnumdomains'] = "מספר הדומיינים";
 $_LANG['statsnumproducts'] = "מספר המוצרים \ שירותים";
 $_LANG['statsnumreferredsignups'] = "מספר ההפניות שנרשמו";
 $_LANG['statsnumtickets'] = "מספר הפניות לתמיכה";
-
 $_LANG['submitticketdescription'] = "שלח פנייה למוקד התמיכה הטכנית";
 $_LANG['supportclickheretocontact'] = "לחץ כאן כדי ליצור קשר";
 $_LANG['supportpresalesquestions'] = "אם יש לך שאלות שנוגעות לשלב שטרם הקנייה";
@@ -793,7 +807,6 @@ $_LANG['upgradechooseconfigoptions'] = "שדרג \ הסר אפשרויות עב�
 $_LANG['upgradechoosepackage'] = "בחר את החבילה שאתה רוצה לשדרג או לשנות מבין האפשרויות להלן.";
 $_LANG['upgradecurrentconfig'] = "תצורה נוכחית";
 $_LANG['upgradedowngradeconfigoptions'] = "אפשרויות שדרוג ושינוי";
-
 $_LANG['upgradenewconfig'] = "תצורה חדשה";
 $_LANG['upgradenochange'] = "ללא שינוי";
 $_LANG['upgradeproductlogic'] = "מחיר השדרוג מחושב מהקרדיט ותוכנית החיוב הנוכחית והחיוב עבור החבילה החדשה על אותו הזמן";
@@ -830,7 +843,6 @@ $_LANG['pwresetvalidationcheckemail'] = "תהליך איפוס הסיסמה הח
 $_LANG['pwresetkeyinvalid'] = "הקישור לאיפוס הסיסמה לא תקין, נא נסה שוב.";
 $_LANG['pwresetkeyexpired'] = "הקישור לאיפוס הסיסמה לא בתוקף, נא נסה שוב.";
 $_LANG['pwresetvalidationsuccess'] = "הסיסמה אופסה בהצלחה";
-$_LANG['pwresetvalidationsuccessdesc'] = "הסיסמה אופסה - פרטי ההתחברות נשלחו למייל שלך.";
 
 $_LANG['overagescharges'] = "חיוב עודף";
 $_LANG['overagestotaldiskusage'] = "שטח דיסק בשימוש";
@@ -900,7 +912,7 @@ $_LANG['masspaymakepayment'] = "בצע תשלום";
 # Version 4.3
 
 $_LANG['searchenterdomain'] = "הכנס דומיין לחיפוש";
-$_LANG['searchfilter'] = "פילטר";
+$_LANG['searchfilter'] = "סינון";
 
 $_LANG['suspendreason'] = "סיבת ההשהיה";
 $_LANG['suspendreasonoverdue'] = "אי תשלום";
@@ -1028,8 +1040,6 @@ $_LANG['invoiceoneoffpayment'] = "תשלום חד פעמי";
 $_LANG['invoicesubscriptionpayment'] = "צור חשבון בחיוב אוטומטי";
 
 $_LANG['invoicepaymentpendingreview'] = "תודה לך! התשלום שלך התקבל בהצלחה וייזקף לזכות החשבונית שלך לאחר סיום הסקירה על ידי 2CheckOut's  <br/><br/> לידיעתכם, תהליך זה עלול להמשך מספר שעות. ";
-
-
 
 $_LANG['step'] = "שלב %s";
 $_LANG['cartdomainexists'] = "לא ניתן להזמין את שם הדומיין שהוזן, שם הדומיין קיים כבר במאמר המידע של המערכת.";
@@ -1166,8 +1176,8 @@ $_LANG['bundlewarningdomainaddon'] = "כדי שהדומיין %s  יענה לד�
 
 # New Client Area Template  Lines
 
-$_LANG['navservices'] = "מוצרים ושרותים";
-$_LANG['navservicesorder'] = "הזמנת מוצרים ושרותים חדשים";
+$_LANG['navservices'] = "שירותים";
+$_LANG['navservicesorder'] = "הזמנת שירותים חדשים";
 $_LANG['navdomains'] = "דומיינים";
 $_LANG['navrenewdomains'] = "חידוש דומיינים";
 $_LANG['navregisterdomain'] = "רישום דומיין חדש";
@@ -1176,7 +1186,7 @@ $_LANG['navwhoislookup'] = "חיפוש ב - Whois ";
 $_LANG['navbilling'] = "חיובים";
 $_LANG['navsupport'] = "תמיכה";
 $_LANG['navtickets'] = "כרטיסי פנייה";
-$_LANG['navopenticket'] = "פתח כרטיס פנייה";
+$_LANG['navopenticket'] = "פתיחת פנייה";
 $_LANG['navmanagecc'] = "ניהול כרטיסי אשראי";
 $_LANG['navemailssent'] = "מיילים שנשלחו";
 
@@ -1188,14 +1198,14 @@ $_LANG['forgotpw'] = "שכחת סיסמה?";
 $_LANG['editaccountdetails'] = "עריכת פרטי החשבון";
 
 $_LANG['clientareanavccdetails'] = "פרטי כרטיס האשראי";
-$_LANG['clientareanavcontacts'] = "אנשי קשר/Sub-Accounts";
+$_LANG['clientareanavcontacts'] = "ניהול אנשי קשר";
 
 $_LANG['manageyouraccount'] = "ניהול החשבון שלך";
 $_LANG['accountoverview'] = "סקירת החשבון";
 $_LANG['paymentmethod'] = "אמצעי תשלום";
 $_LANG['paymentmethoddefault'] = "השתמש בברירת מחדל (הגדרה בהתאמה לכל הזמנה)";
 $_LANG['productmanagementactions'] = "פעולות ניהול";
-$_LANG['clientareanoaddons'] = "לא בוצעה רכישה של תוספים";
+$_LANG['clientareanoaddons'] = "לא נמצאו תוספות עבור החשבון הזה";
 $_LANG['downloadssearch'] = "חיפוש בהורדות";
 $_LANG['emailviewmessage'] = "צפייה בהודעה";
 $_LANG['resultsperpage'] = "תוצאות בעמוד";
@@ -1247,7 +1257,7 @@ $_LANG['managing'] = "ניהול";
 $_LANG['information'] = "מידע";
 $_LANG['withselected'] = "עם נבחר";
 $_LANG['managedomain'] = "נהל דומיין";
-$_LANG['changenameservers'] = "שנה שם שרת";
+$_LANG['changenameservers'] = "עדכון שרתי שמות";
 $_LANG['clientareadomainmanagedns'] = "ניהול DNS";
 $_LANG['clientareadomainmanageemailfwds'] = "ניהול העברות מיילים";
 $_LANG['moduleactionsuccess'] = "הפעולה בוצעה בהצלחה";
@@ -1263,7 +1273,7 @@ $_LANG['searchmultipletlds'] = "חיפוש בסיומות דומיין נוספ�
 
 $_LANG['networkstatustitle'] = "מצב השרתים";
 $_LANG['networkstatusnone'] = "אין %s בעיות רשת";
-$_LANG['serverstatusheadingtext'] = "לפניך רשימת כלל השרתים, אתם יכולים לוודא כי לא קיימות בעיות בשרתים שלנו ";
+$_LANG['serverstatusheadingtext'] = "הטבלה שלהלן מציגה את המצב של השרתים שלנו. ניתן להשתמש בדף זה כדי לבדוק אם אחד השירותים על השרתים שלנו לא פעיל.";
 
 $_LANG['clientareacancelreasonrequired'] = "עליך להזין סיבת ביטול";
 
@@ -1298,25 +1308,26 @@ $_LANG['jobtitlereqforcompany'] = "(נדרש במידה והזנתם שם חבר
 
 $_LANG['downloadproductrequired'] = "כדי להוריד את הפריט הנבחר אתה חייב את השירות / המוצר:";
 
-$_LANG['affiliatesignuptitle'] = "Get Paid for Referring Customers to Us";
-$_LANG['affiliatesignupintro'] = "Activate your affiliate account and start earning money today...";
-$_LANG['affiliatesignupinfo1'] = "We pay commissions for every signup that comes via your custom signup link.";
-$_LANG['affiliatesignupinfo2'] = "We track the visitors you refer to us using cookies, so users you refer don't have to purchase instantly for you to receive your commission.  Cookies last for up to 90 days following the initial visit.";
-$_LANG['affiliatesignupinfo3'] = "If you would like to find out more, please contact us.";
+$_LANG['affiliatesignuptitle'] = "קבל תשלום עבור הפניית לקוחות אלינו";
+$_LANG['affiliatesignupintro'] = "הפעל את חשבון השותפים שלך והתחל להרוויח כסף היום ...";
+$_LANG['affiliatesignupinfo1'] = "אנחנו משלמים עמלות עבור כל נרשם שמגיע דרך קישור ההרשמה האישי שלך.";
+$_LANG['affiliatesignupinfo2'] = "אנו עוקבים אחר המבקרים שאתה מפנה אלינו באמצעות קבצי cookies, כך שמשתמש שאתה מפנה לא צריך לרכוש באופן מיידי כדי שתוכל לקבל העמלה שלך. cookies נשארים עד 90 ימים לאחר הביקור הראשוני.";
+$_LANG['affiliatesignupinfo3'] = "אם ברצונך לברר פרטים נוספים, אנא פנה אלינו.";
 
 # Version 5.1
 
 $_LANG['copyright'] = "זכויות יוצרים";
-$_LANG['allrightsreserved'] = "כל הזכויות שמורות";
-$_LANG['supportticketsclose'] = "סגור כרטיס פניה";
+$_LANG['allrightsreserved'] = "כל הזכויות לתוכן והתמונות באתר שמורות";
+$_LANG['supportticketsclose'] = "סגור כרטיס פנייה";
 $_LANG['affiliatesinitialthen'] = "בתחילה ואחר כך";
 $_LANG['invoicesoutstandingbalance'] = "מאזן מושלם";
 
 $_LANG['cpanellogin'] = "התחבר ל cPanel";
 $_LANG['cpanelwhmlogin'] = "התחבר ל WHM";
 $_LANG['cpanelwebmaillogin'] = "התחבר ל Webmail";
+$_LANG['enkompasslogin'] = "Login to Enkompass";
 $_LANG['plesklogin'] = "התחבר לממשק הניהול של Plesk";
-$_LANG['hemllogin'] = "התחבר לממשק הניהול של Helm";
+$_LANG['helmlogin'] = "התחבר לממשק הניהול של Helm";
 $_LANG['hypervmrestart'] = "איתחול שרת VPS";
 $_LANG['siteworxlogin'] = "התחבר לממשק הניהול של SiteWorx";
 $_LANG['nodeworxlogin'] = "התחבר לממשק הניהול של NodeWorx";
@@ -1335,7 +1346,7 @@ $_LANG['directadminlogin'] = "התחבר ל DirectAdmin";
 $_LANG['centovacastlogin'] = "התחבר ל Centova Cast";
 $_LANG['castcontrollogin'] = "התחבר לממשק הניהול";
 
-$_LANG['sslconfigurenow'] = "הגדר עכשיו SSL";
+$_LANG['sslconfigurenow'] = "הגדר עכשיו";
 $_LANG['sslprovisioningdate'] = "תאריך הקצאת SSL";
 $_LANG['globalsignvoucherscode'] = "קוד ואוצ&lsquo;ר OneClickSSL";
 $_LANG['globalsignvouchersnotissued'] = "עדיין לא הונפק";
@@ -1366,14 +1377,15 @@ $_LANG['licensingreissued'] = "שם הדומיין, כתובת IP והתיקיה
 $_LANG['domainaddons'] = "תוספים";
 $_LANG['domainaddonsinfo'] = "התוספים הבאים מתאימים לדומיינים שלכם...";
 $_LANG['domainaddonsdnsmanagement'] = "ניהול DNS Host Record";
-$_LANG['domainaddonsidprotectioninfo'] = "אבטחו את המידע האישי שלכם והקטינו את כמות דיוור הספאם על ידי הפעלת הגנת ID.";
+$_LANG['domainaddonsidprotectioninfo'] = "אבטחו את המידע האישי שלכם והקטינו את כמות דיוור הספם על ידי הפעלה של הגנת ID.";
 $_LANG['domainaddonsdnsmanagementinfo'] = "אחסון DNS חיצוני יעזור לכם להאיץ את האתר שלכם ולשפר את הזמינות בעזרת חלוקת עומסים.";
 $_LANG['domainaddonsemailforwardinginfo'] = "העבירו דיוור לכתובות מייל לפי בחירתכם כדי לנהל את כל הדואר האלקטרוני מחשבון אחד.";
 $_LANG['domainaddonsbuynow'] = "רכוש כעת ל";
 $_LANG['domainaddonsperyear'] = "/שנה";
 $_LANG['domainaddonscancelareyousure'] = "האם אתה בטוח שאתה רוצה לכבות ולבטל את התוסף הזה?";
 $_LANG['domainaddonsconfirm'] = "אשר ביטול";
-
+$_LANG['domainaddonscancelsuccess'] = "התוסף בוטל בהצלחה!";
+$_LANG['domainaddonscancelfailed'] = "נכשל ניסיון לבטל את התוסף. פנה לתמיכה.";
 
 # Version 5.2
 
@@ -1384,64 +1396,66 @@ $_LANG['emailoptout'] = "ביטול הרשמה לניוזלטר";
 $_LANG['newsletterunsubscribe'] = "ביטול מנוי לניולזלטר";
 $_LANG['emailoptoutdesc'] = "סמן כדי לבטל את המנוי לניוזלטר שלנו";
 $_LANG['alreadyunsubscribed'] = "כבר ביטלת את המנוי לניוזלטר שלנו.";
-$_LANG['newsletterresubscribe'] = "אם אתה מעוניין להרשם בשנית, תוכל לעשות כן מאזור %sMy Details%s של ממשק הלקוחות שלנו בכל עת.";
-$_LANG['unsubscribehashinvalid'] = "הסרת ההרשמה נכשלה, אנא פנה לתמיכה להמשך טיפול";
-$_LANG['unsubscribesuccess'] = "הסרת הרישום התבצעה בהצלחה";
-$_LANG['newsletterremoved'] = "תודה לך, כתובת המייל שלך הוסרה מרשימת הדיוור שלנו.";
-$_LANG['erroroccured'] = "תקלה קרתה";
-$_LANG['pwresetsuccessdesc'] = "הסיסמה שלך שונתה. %sClick here%s על מנת להמשיך לאזור הלקוחות שלנו...";
-$_LANG['pwresetenternewpw'] = "אנא הכנס את הסיסמה החדשה שבחרת בשדה  התחתון";
-$_LANG['ordererrorsbudomainbanned'] = "סיומת תת הדומיין שביקשת איננה אפשרית- אנא בחר באחר.";
+$_LANG['newsletterresubscribe'] = "אם ברצונך להירשם מחדש אתה יכול לעשות זאת מ %sMy Details%s  קטע של אזור הלקוח שלנו בכל עת.";
+$_LANG['unsubscribehashinvalid'] = "ביטול המנוי נכשל, אנא פנה לתמיכה.";
+$_LANG['unsubscribesuccess'] = "המנוי בוטל בהצלחה";
+$_LANG['newsletterremoved'] = "הדואר אלקטרוני שלך הוסר מרשימת התפוצה שלנו. תודה.";
+$_LANG['erroroccured'] = "אירעה שגיאה";
+$_LANG['pwresetsuccessdesc'] = "סיסמתך אופסה. %sClick here%s כדי להמשיך לאזור הלקוח ...";
+$_LANG['pwresetenternewpw'] = "נא להזין את הסיסמה החדשה הרצויה מתחת.";
+$_LANG['ordererrorsbudomainbanned'] = "קידומת המשנה שהזנת אינה מותרת - נסה אחר";
 
 $_LANG['ticketfeedbacktitle'] = "בקשת פידבק לכרטיס התמיכה";
 
 $_LANG['nosupportdepartments'] = "לא נמצאו מחלקות תמיכה, נא לנסות שוב מאוחר יותר";
 
-$_LANG['feedbackclosed'] = "לא תוכל להגיש משוב ,אלא רק לאחר סגירת הכרטיס";
-$_LANG['feedbackprovided'] = "כבר הגשת משוב על כרטיס זה";
-$_LANG['feedbackthankyou'] = "אנו מודים לך על המשוב שסיפקת לנו";
-$_LANG['feedbackreceived'] = " הגשת המסמך התקבלה";
-$_LANG['feedbackdesc'] = "נשמח אם תוכל למלא את השאלון הבא לצורך שיפור ובקשת השירות";
-$_LANG['feedbackclickreview'] = "לחץ כאן על מנת לסקור את הקריאה";
-$_LANG['feedbackopenedat'] = "משוב נפתח ב";
-$_LANG['feedbacklastreplied'] = "תגובה אחרונה שנרשמה ל";
-$_LANG['feedbackstaffinvolved'] = "אנשי צוות מעורבים";
-$_LANG['feedbacktotalduration'] = "זמן כולל לטיפול";
-$_LANG['feedbackpleaserate1'] = "אנא דרג (בסולם של 1 עד 10 איך היה";
-$_LANG['feedbackpleasecomment1'] = "אנא רשום כיצד טיפל בבקשה";
-$_LANG['feedbackhandled'] = "טיפל בבקשת התמיכה";
-$_LANG['feedbackworst'] = "גרוע";
-$_LANG['feedbackbest'] = "מצויין";
-$_LANG['feedbackimprove'] = "כיצד נוכל לשפר את חווית השימוש שלך בעתיד? ";
-$_LANG['pleaserate2'] = "טיפל בבקשת התמיכה";
-$_LANG['returnclient'] = "חזור לאזור הלקוחות";
+$_LANG['feedbackclosed'] = "המשוב לא יכול להיות מסופק עד שהכרטיס ייסגר";
+$_LANG['feedbackprovided'] = "כבר סופק משוב לכרטיס הזה";
+$_LANG['feedbackthankyou'] = "אנו מודים לך על שהקדשת מהזמן כדי לספק את המשוב שלך.";
+$_LANG['feedbackreceived'] = "ההגשה התקבלה";
+$_LANG['feedbackdesc'] = "האם תוכל לפנות מספר רגעים מזמנך כדי למלא את הטופס הבא על איכות החוויה שלך עם צוות התמיכה שלנו.";
+$_LANG['feedbackclickreview'] = "לחץ כאן לסקירת הכרטיס";
+$_LANG['feedbackopenedat'] = "נפתח ב";
+$_LANG['feedbacklastreplied'] = "Last Replied To";
+$_LANG['feedbackstaffinvolved'] = "צוות מעורב";
+$_LANG['feedbacktotalduration'] = "סך הכל משך הזמן";
+$_LANG['feedbackpleaserate1'] = "אנא דרג (בסולם של 1 עד 10) כמה טוב";
+$_LANG['feedbackpleasecomment1'] = "נא להגיב על כמה טוב";
+$_LANG['feedbackhandled'] = "טיפלנו בבקשת תמיכה זו";
+$_LANG['feedbackworst'] = "הגרוע ביותר";
+$_LANG['feedbackbest'] = "הטוב ביותר";
+$_LANG['feedbackimprove'] = "כיצד אנו יכולים להפוך את החוויה שלך לטובה יותר בעתיד?";
+$_LANG['pleaserate2'] = "טיפלנו בבקשת תמיכה זו";
+$_LANG['returnclient'] = "לחזור לאזור הלקוח";
 
 $_LANG['clientareanavsecurity'] = "הגדרות אבטחה";
-$_LANG['twofactorauth'] = "קוד אישור משני";
+$_LANG['twofactorauth'] = "אימות של שני גורמים";
 $_LANG['twofaenable'] = "אפשר ".$_LANG['twofactorauth'];
 $_LANG['twofadisable'] = "בטל ".$_LANG['twofactorauth'];
 $_LANG['twofaenableclickhere'] = "לחצו כאן כדי לאפשר";
 $_LANG['twofadisableclickhere'] = "לחצו כאן כדי לבטל";
-$_LANG['twofaenforced'] = "מנהל המערכת מבקש שתפעיל ".$_LANG['twofactorauth']."לפני שתוכל להמשיך. דף זה ידריך אותך בתהליך ההגדרה. ";
-$_LANG['twofasetup'] = "הגדרת תהליך הפעלת קוד משני";
-$_LANG['twofasetupgetstarted'] = "התחל";
-$_LANG['twofaactivationintro'] = $_LANG['twofactorauth']." מוסיף שכבת הגנה נוספת לכניסה לממשק. ברגע שהוא יופעל ויוגדר, בכל פעם שתכנס,אתה תתבקש להכניס גם את שם המשתמש והסיסמה שלך, וגם את הקוד המשני שלך בתור קוד אבטחה.";
-$_LANG['twofaactivationmultichoice'] = "להמשך, אנא בחר את שיטת ה ".$_LANG['twofactorauth']." מהשדה התחתון";
-$_LANG['twofadisableintro'] = "כדי לנטרל ".$_LANG['twofactorauth']."אנא אשר את סיסמתך בשדה התחתון ";
-$_LANG['twofaactivationerror'] = "תקלה קרתה בעת הנסיון להפעיל ".$_LANG['twofactorauth']."עבור חשבונך. אנא נסה שוב ";
-$_LANG['twofamoduleerror'] = "קרתה תקלה בטעינת המודול שלך. אנא נסה שוב.";
+$_LANG['twofaenforced'] = "The system administrator has enforced that you must enable ".$_LANG['twofactorauth']." before you can continue. This page will guide you through the process of setting it up.";
+$_LANG['twofasetup'] = "הגדרת תהליך אימות של שני גורמים";
+$_LANG['twofasetupgetstarted'] = "התחל לעבוד";
+$_LANG['twofaactivationintro'] = $_LANG['twofactorauth']." מוסיף שכבה נוספת של הגנה לכניסות. ברגע שתאפשר &amp; הגדרה זו, בכל פעם שתיכנס אתה תתבקש להזין את השם משתמש ואת הסיסמה, כמו גם גורם שני כגון קוד אבטחה.";
+$_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired ".$_LANG['twofactorauth']." שיטה מלמטה.";
+$_LANG['twofadisableintro'] = "To disable ".$_LANG['twofactorauth']." נא לאשר את הסיסמה שלך בשדה מתחת.";
+$_LANG['twofaactivationerror'] = "אירעה שגיאה בעת הניסיון להפעיל ".$_LANG['twofactorauth']." לחשבונך. אנא נסה שוב.";
+$_LANG['twofamoduleerror'] = "אירעה שגיאה בטעינת המודול. אנא נסה שוב.";
 $_LANG['twofaactivationcomplete'] = $_LANG['twofactorauth']." ההתקנה הושלמה!";
-$_LANG['twofadisableconfirmation'] = $_LANG['twofactorauth']." כעת נוטרל עבורך חשבונך";
+$_LANG['twofadisableconfirmation'] = $_LANG['twofactorauth']." כעת הושבת החשבון שלך.";
 $_LANG['twofabackupcodeis'] = "קוד הגיבוי שלך הוא";
-$_LANG['twofabackupcodeexpl'] = "רשום זאת על פיסת נייר ושמור אותה באופן מאובטח. <br /> יהיה צורך בה אם המכשיר המקושר לקוד המשני יעלם או לא יהיה זמין לך";
-$_LANG['twofaconfirmpw'] = "אנא הכנס את סיסמתך";
-$_LANG['twofa2ndfactorreq'] = "יש צורך בקוד הכניסה המשני שלך על מנת להשלים את הכניסה למערכת";
-$_LANG['twofa2ndfactorincorrect'] = "קוד הכניסה המשני שהכנסת אינו נכון. אנא נסה שנית.";
-$_LANG['twofabackupcodereset'] = "גישה באמצעות קוד גיבוי הצליח. קודי גיבוי זמינים לשימוש באופן חד פעמי. כעת הוא ישתנה לקוד אחר.";
-$_LANG['twofacantaccess2ndfactor'] = "האם אינך יכול לגשת למכשיר האישור המשני שלך ?";
-$_LANG['twofaloginusingbackupcode'] = "גישה למערכת דרך קוד גיבוי";
+$_LANG['twofanewbackupcodeis'] = "קוד הגיבוי החדש שלך הוא";
+$_LANG['twofabackupcodelogin'] = "הזן את קוד הגיבוי שלך מעל בכדי להתחבר";
+$_LANG['twofabackupcodeexpl'] = "רשום את זה על נייר ושמור במקום בטוח. <br /> תצטרך את זה אם אי פעם תאבד את גורם 2 שלך או שהוא אינו זמין לך.";
+$_LANG['twofaconfirmpw'] = "הזן את הסיסמה שלך";
+$_LANG['twofa2ndfactorreq'] = "הגורם השני נדרש כדי להשלים את ההתחברות.";
+$_LANG['twofa2ndfactorincorrect'] = "הגורם השני שסיפקת היה שגוי. אנא נסה שוב.";
+$_LANG['twofabackupcodereset'] = "כניסה באמצעות קוד גיבוי הצליחה. קודי גיבוי תקפים פעם אחת בלבד. זה כעת זה יתאפס..";
+$_LANG['twofacantaccess2ndfactor'] = "לא ניתן לגשת להתקני גורם 2?";
+$_LANG['twofaloginusingbackupcode'] = "כניסה באמצעות קוד גיבוי";
+$_LANG['twofageneralerror'] = "אירעה שגיאה בטעינת המודול. אנא נסה שוב.";
 
 $_LANG['continue'] = "המשך";
-$_LANG['disable'] = "ביטול";
-$_LANG['manage'] = "ניהול";
-
+$_LANG['disable'] = "לא לבצע";
+$_LANG['manage'] = "לנהל";
