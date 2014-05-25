@@ -2,8 +2,10 @@ Title:
 [Ticket ID: {$tickettid}] חוקי דירוג הופעלו
 
 Content:
+<div style="direction: rtl; text-align: right;">
 <p>חוק הדירוג {$rule_name} הופעל ביחס לכרטיס פנייה זה.</p>
 <p>לקוח: {$client_name}{if $client_id} #{$client_id}{/if} <br />מחלקה: {$ticket_department} <br />נושא: {$ticket_subject} <br />עדיפות: {$ticket_priority}</p>
 <p>---<br />{$ticket_message}<br />---</p>
 <p>ניתן להגיב לכרטיס פנייה זה ישירות באימייל או באמצעות הקישור המצורף.</p>
 <p><a href="{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}">{$whmcs_admin_url}supporttickets.php?action=viewticket&amp;id={$ticket_id}</a></p>
+</div>
