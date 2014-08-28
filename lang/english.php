@@ -13,7 +13,7 @@
  *
  * @package    WHMCS
  * @author     WHMCS Limited <development@whmcs.com>
- * @copyright  Copyright (c) WHMCS Limited 2005-2013
+ * @copyright  Copyright (c) WHMCS Limited 2005-2014
  * @license    http://www.whmcs.com/license/ WHMCS Eula
  * @version    $Id$
  * @link       http://www.whmcs.com/
@@ -868,6 +868,7 @@ $_LANG['invoicepaymentfailedconfirmation'] = "Unfortunately your payment attempt
 $_LANG['promoappliedbutnodiscount'] = "The promotion code you entered has been applied to your cart but no items qualify for the discount yet - please check the promotion terms";
 
 $_LANG['upgradeerroroverdueinvoice'] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
+$_LANG['upgradeexistingupgradeinvoice'] = "You cannot currently upgrade or downgrade this product because an upgrade or downgrade is already in progress.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.<br/><br/>If you believe you are receiving this message in error, please submit a trouble ticket.";
 
 $_LANG['subaccountactivate'] = "Activate Sub-Account";
 $_LANG['subaccountactivatedesc'] = "Tick to configure as a sub-account with client area access";
@@ -1465,11 +1466,6 @@ $_LANG['quoteacceptancetitle'] = "Quote Acceptance";
 $_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
 $_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
 
-$_LANG['passwordstrength'] = "Password Strength";
-$_LANG['strong'] = "Strong";
-$_LANG['moderate'] = "Moderate";
-$_LANG['weak'] = "Weak";
-
 $_LANG['contactform'] = "Contact Form";
 
 $_LANG['twoipverificationstep'] = "Verification Step";
@@ -1514,3 +1510,16 @@ $_LANG['serverns1prefixexample'] = "eg. ns1(.yourdomain.com)";
 $_LANG['serverns2prefixexample'] = "eg. ns2(.yourdomain.com)";
 
 $_LANG['hosting'] = "Hosting";
+
+$_LANG['enomfrregistration']['Heading'] = '.fr domains have different required values depending on your nationality and type of registration:';
+$_LANG['enomfrregistration']['French Individuals']['Name'] = 'French Individuals';
+$_LANG['enomfrregistration']['French Individuals']['Requirements'] = 'Please provide your "Birthdate", "Birthplace City", and "Birthplace Postcode".';
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = 'EU Non-French Individuals';
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = 'Please provide your "Birthdate".';
+$_LANG['enomfrregistration']['French Companies']['Name'] = 'French Companies';
+$_LANG['enomfrregistration']['French Companies']['Requirements'] = 'Please provide the "Birthdate", "Birthplace City", and "Birthplace Postcode" for the owner contact, along with your SIRET number.';
+$_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = 'EU Non-French Companies';
+$_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = 'Please provide the company "DUNS Number", and the "Birthdate" of the Owner Contact.';
+$_LANG['enomfrregistration']['Non-EU Warning'] = 'Client contact information must be within the EU or else registration will fail.';
+
+
