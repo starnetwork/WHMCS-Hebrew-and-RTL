@@ -22,11 +22,14 @@
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_LANG['invoiceaddcreditdesc2'] = "זה יכול להיות מיושם על החשבונית עסקה באמצעות הטופס הבא.";
-$_LANG['invoicesinvoicedto'] = "חשבונית עסקה אל";
-$_LANG['invoicesinvoicenotes'] = "הערות לחשבונית עסקה";
-$_LANG['invoicesnoinvoices'] = "אין חשבוניות עסקה";
-$_LANG['invoicesoutstandinginvoices'] = "יתרת החשבונית עסקה";
+$_LANG['invoicesinvoicedto'] = "חשבון עסקה אל";
+$_LANG['invoicesinvoicenotes'] = "הערות לחשבון עסקה";
+$_LANG['invoicesnoinvoices'] = "אין חשבון עסקה";
+$_LANG['invoicesoutstandinginvoices'] = "יתרת חשבון עסקה";
 $_LANG['invoicesview'] = "צפה בחשבונית עסקה";
-$_LANG['ordercompletebutnotpaid'] = "שם לב! תהליך ההזמנה הסתיים אך עדיין לא התקבל התשלום עבור ההזמנה, ההזמנת תופעל ברגע שהתשלום יתקבל.<br />לחץ על הקישור הבא כדי לראות את החשבונית עסקה ולבצע תשלום.";
+$_LANG['ordercompletebutnotpaid'] = "שם לב! תהליך ההזמנה הסתיים אך עדיין לא התקבל התשלום עבור ההזמנה, ההזמנת תופעל ברגע שהתשלום יתקבל.<br />לחץ על הקישור הבא כדי לראות את חשבון עסקה ולבצע תשלום.";
 $_LANG['paidinvoicename'] = "קבלה #";
 $_LANG['invoicespaidinvto'] = "קבלה אל";
+$_LANG['invoicenumber'] = "חשבון עסקה #";
+$_LANG['invoicestitle'] = "חשבון עסקה #";
+$_LANG['proformainvoicenumber'] = "חשבון עסקה מוצג #";
