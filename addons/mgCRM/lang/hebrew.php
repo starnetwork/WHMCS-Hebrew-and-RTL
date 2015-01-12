@@ -42,7 +42,13 @@
  * $_ADDONLANG['Dashboard'] = 'Command Center';
  * $_ADDONLANG['API']       = 'awesome API';
  */
-$_ADDONLANG['Leads']     = 'Leads';
+
+$_ADDONLANG['Dashboard'] = 'לוח הבקרה';
+$_ADDONLANG['Leads']     = 'לידים';
+$_ADDONLANG['Potentials']     = 'פוטנציאליים';
+$_ADDONLANG['Archive'] = 'ארכיון';
+$_ADDONLANG['Settings'] = 'הגדרות';
+
 
 
 /**
