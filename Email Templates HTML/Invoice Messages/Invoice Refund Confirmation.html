@@ -13,3 +13,12 @@ Content:
 <p>להתחברות אוטומטית - <a href="{$whmcs_url}/client-login.php?email={$client_email}&amp;hash={$hash|md5}&amp;gotourl=viewinvoice.php?id={$invoice_id}">לחצו כאן</a></p>
 <p>{$signature}</p>
 </div>
+
+Original Message:
+<p>Dear {$client_name},</p>
+<p>This is confirmation that a {if $invoice_status eq "Refunded"}full{else}partial{/if} refund has been processed for Invoice #{$invoice_num}</p>
+<p>The refund has been {if $invoice_refund_type eq "credit"}credited to your account balance with us{else}returned via the payment method you originally paid with{/if}.</p>
+<p>{$invoice_html_contents}</p>
+<p>Amount Refunded: {$invoice_last_payment_amount}{if $invoice_last_payment_transid}<br />Transaction #: {$invoice_last_payment_transid}{/if}</p>
+<p>You may review your invoice history at any time by logging in to your client area.</p>
+<p>{$signature}</p>
