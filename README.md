@@ -24,6 +24,6 @@ templates/default-rtl
 את התוכן של קבצי ה-css  
 שמופיעים בחבילת הגיור פה  
 templates/default-rtl/css  
-=======  
+======= 
 # WHMCS-Hebrew-and-RTL  
 WHMCS Hebrew Translation and RTL support  
