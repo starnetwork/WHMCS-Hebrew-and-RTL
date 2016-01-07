@@ -1024,7 +1024,7 @@ $_LANG['quoteacceptbtn'] = "אישור הצעת המחיר";
 $_LANG['quotedlpdfbtn'] = "הורדה כקובץ PDF";
 $_LANG['quotediscountheading'] = "הנחה (%)";
 $_LANG['noquotes'] = "לא נמצאו הצעות מחיר המשויכות לחשבון זה. <br /> צרו אתנו קשר בכדי לבקש הצעת מחיר לגבי המוצרים שלנו.";
-$_LANG['quotenumber'] = "הצעת מחיר מספר  #";
+$_LANG['quotenumber'] = "הצעה  #";
 $_LANG['quotesubject'] = "נושא";
 $_LANG['quotedatecreated'] = "תאריך יצירה";
 $_LANG['quotevaliduntil'] = "בתוקף עד";
@@ -1377,8 +1377,8 @@ $_LANG['clientgroupdiscount'] = "הנחת לקוח";
 $_LANG['billableitemshours'] = "שעות";
 $_LANG['billableitemshour'] = "שעה";
 
-$_LANG['invoicefilename'] = "חשבונית-";
-$_LANG['quotefilename'] = "הצעת מחיר-";
+$_LANG['invoicefilename'] = "Invoice-";
+$_LANG['quotefilename'] = "Quote-";
 
 # Domain Addons
 
