@@ -1959,4 +1959,6 @@ g {
     direction: ltr !important;
     text-align: center;
 }
-
+.datepick + img {
+    margin-left: 5px;
+}
