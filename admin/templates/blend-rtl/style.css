@@ -1962,3 +1962,13 @@ g {
 .datepick + img {
     margin-left: 5px;
 }
+
+.col-sm-6:first-child {
+    padding-left: 0;
+}
+.col-sm-6:last-child {
+    padding-right: 0;
+}
+.homecolumn.right {
+    margin-left: 0;
+}
