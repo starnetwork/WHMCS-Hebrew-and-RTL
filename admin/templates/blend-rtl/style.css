@@ -1948,5 +1948,15 @@ body #sidebar {
 g {
     direction: ltr;
 }
-
+.datepick + img {
+    right: 5px;
+    margin-bottom: 6px;
+} 
+.date-picker + img {
+    left: -5px;
+}
+#sortabletbl0 td {
+    direction: ltr !important;
+    text-align: center;
+}
 
