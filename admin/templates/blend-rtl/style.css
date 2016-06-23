@@ -1972,3 +1972,7 @@ g {
 .homecolumn.right {
     margin-left: 0;
 }
+.intellisearch #intellisearchval {
+    display: block;
+    margin-top: -11px;
+}
