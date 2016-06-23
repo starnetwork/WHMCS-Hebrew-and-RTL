@@ -1975,4 +1975,5 @@ g {
 .intellisearch #intellisearchval {
     display: block;
     margin-top: -11px;
+    margin-left: -10px;
 }
