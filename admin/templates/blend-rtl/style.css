@@ -1948,5 +1948,32 @@ body #sidebar {
 g {
     direction: ltr;
 }
+.datepick + img {
+    right: 5px;
+    margin-bottom: 6px;
+} 
+.date-picker + img {
+    left: -5px;
+}
+#sortabletbl0 td {
+    direction: ltr !important;
+    text-align: center;
+}
+.datepick + img {
+    margin-left: 5px;
+}
 
-
+.col-sm-6:first-child {
+    padding-left: 0;
+}
+.col-sm-6:last-child {
+    padding-right: 0;
+}
+.homecolumn.right {
+    margin-left: 0;
+}
+.intellisearch #intellisearchval {
+    display: block;
+    margin-top: -11px;
+    margin-left: -10px;
+}
